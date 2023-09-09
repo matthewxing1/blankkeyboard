@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import Header from "./components/Header";
+import KeyboardContainer from "./components/KeyboardContainer";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -8,8 +9,9 @@ function App() {
     // console.log(e.keyCode);
   }
   return (
-    <div onKeyDown={handleKeyDown} tabIndex={-1}>
+    <div className="flex flex-col" onKeyDown={handleKeyDown} tabIndex={-1}>
       <Header/>
+      <KeyboardContainer/>
     </div>
   )
 }
