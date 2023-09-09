@@ -1,8 +1,11 @@
 function Header() {
   return (
-    <div className="text-white text-xl">
-      BlankKeyboard
+    <div>
+      <div className="font-saira text-5xl text-white m-8">
+        Ghost Keys
+      </div>
     </div>
+    
   )
 }
 
