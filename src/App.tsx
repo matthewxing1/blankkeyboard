@@ -11,7 +11,10 @@ function App() {
   return (
     <div className="flex flex-col" onKeyDown={handleKeyDown} tabIndex={-1}>
       <Header/>
-      <KeyboardContainer/>
+      <div className="w-screen flex justify-center">
+        <KeyboardContainer/>
+      </div>
+      
     </div>
   )
 }
