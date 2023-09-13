@@ -1,6 +1,31 @@
+import Key from "./key";
+
 function KeyboardRow2() {
   return (
-    <div className="text-white">row2</div>
+    <div className="text-white flex flex-row">
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+      <Key/>
+    </div>
   )
 }
 
